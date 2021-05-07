@@ -182,7 +182,7 @@ print(f"Fraction incorrect: {incorrect_count_test / total_count}")
 
 res = pd.DataFrame()
 res[target] = actual
-res['predicted_difoc'] = output
+res['predicted_difot'] = output
 res.to_csv('./results_xgboost_log.csv')
 
 code.interact(local=dict(globals(), **locals()))
